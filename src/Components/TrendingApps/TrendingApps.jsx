@@ -2,7 +2,6 @@ import { Link } from "react-router";
 import ApplicationCard from "../ApplicationCard/ApplicationCard";
 
 const TrendingApps = ({ homePageData }) => {
-  console.log("HomePageData:", homePageData); // eta add kora holo
   return (
     <div className="py-10">
       <h1 className="text-5xl font-bold mb-4">Trending Apps</h1>
