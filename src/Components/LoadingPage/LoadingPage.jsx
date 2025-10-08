@@ -38,21 +38,21 @@ const LoadingPage = () => {
             variants={textVariants}
             custom={0}
           >
-            ডাটা
+            Data
           </motion.h1>
           <motion.h1
             className="text-4xl md:text-6xl font-bold text-white mb-4"
             variants={textVariants}
             custom={1}
           >
-            আইতাছে
+          Loading
           </motion.h1>
           <motion.h1
             className="text-4xl md:text-6xl font-bold text-white"
             variants={textVariants}
             custom={2}
           >
-            খারান
+            Please wait
           </motion.h1>
         </motion.div>
 
@@ -89,7 +89,7 @@ const LoadingPage = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          তাড়াহুড়া হইলে বাইরইয়া জান
+          Please wait a moment
         </motion.p>
       </div>
     </div>

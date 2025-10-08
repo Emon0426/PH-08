@@ -56,7 +56,7 @@ const AppDetails = () => {
 
     if (getStoredApp().includes(id)) {
       Swal.fire({
-        title: "কতবার ইনস্টটল করতে চান?",
+        title: "installing On Process",
         icon: "success",
         draggable: true,
       });
@@ -65,7 +65,7 @@ const AppDetails = () => {
       addToStoreDb(id);
       setInstall(true);
       Swal.fire({
-        title: "জানি বেশি দিন লাস্টিং করতাম না",
+        title: "Installing On Process",
         icon: "success",
         draggable: true,
       });
