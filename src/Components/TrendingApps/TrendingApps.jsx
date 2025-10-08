@@ -2,8 +2,9 @@ import { Link } from "react-router";
 import ApplicationCard from "../ApplicationCard/ApplicationCard";
 
 const TrendingApps = ({ homePageData }) => {
+  console.log("HomePageData:", homePageData); // eta add kora holo
   return (
-    <div className="pt-10">
+    <div className="py-10">
       <h1 className="text-5xl font-bold mb-4">Trending Apps</h1>
       <p className="text-gray-600">
         Explore All Trending Apps on the Market developed by us
@@ -19,7 +20,7 @@ const TrendingApps = ({ homePageData }) => {
                 hover:from-violet-600 hover:to-purple-600 
                 text-white font-bold py-2 px-4 rounded 
                 transition-all duration-500 ease-in-out 
-                hover:scale-105"
+                hover:scale-105 "
       >
         Show All
       </Link>
